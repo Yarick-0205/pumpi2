@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numb</title>
+    <link rel="stylesheet" href="style_au1.css">
+</head>
+<body class="body">
+<header class="header">
+    <div class="container_header1">
+        <p class="header_text1">Pumpi</p>
+        <ul class="header_list">
+            <a href="index.html"><li class="header_item">Главная</li></a>
+            <a href="favorites.html"><li class="header_item">Избранное</li></a>
+            <a href="history.html"><li class="header_item">История</li></a>
+        </ul>
+    </div>
+    <div class="container_header2">
+        <h2 class="header_title2">Услышь. Увидь. Проживи</h2>
+        <p class="header_text2">Пусть музыка живёт внутри вас.</p>
+    </div>
+</header>
+
+
+    <main class="main">
+        <section class="main_section">
+            <div class="container_main">
+                <img src="Фото/Numb.png" alt="Numb" class="main_img">
+                <div class="container_main2">
+                    <h2 class="main_title">Numb</h2>
+                    <p class="main_text">Linkin Park</p>
+                    <audio controls class="audio" id="myAudio">
+                        <source src="Музыка/Linkin_Park_-_Numb_47828673.mp3" type="audio/mpeg">
+                    </audio>
+                </div>               
+            </div>
+            <canvas id="visualizerCanvas" class="canvas_main1"></canvas>
+        </section>
+    </main>
+
+
+
+
+<footer class="footer">
+    <ul class="footer_list">
+        <li class="footer_item">
+            <form action="index.html">
+                <button class="btn_footer">
+                    <img src="Фото/main.jpg" alt="Главная" class="footer_img" />
+                    
+                </button>
+            </form>
+        </li>
+        <li class="footer_item">
+            <form action="favorites.html">
+                <button class="btn_footer">
+                    <img src="Фото/like.png" alt="Избранное" class="footer_img" />
+                    
+                </button>
+            </form>
+        </li>
+        <li class="footer_item">
+            <form action="history.html">
+                <button class="btn_footer">
+                    <img src="Фото/history.jpg" alt="История" class="footer_img" />
+                    
+                </button>
+            </form>
+        </li>
+    </ul>
+</footer>
+    <script src="script.js"></script>
+
+</body>
+</html>

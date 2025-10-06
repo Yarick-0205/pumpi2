@@ -1,0 +1,119 @@
+.body{
+    background-color: rgb(41, 41, 41);
+}
+.container_header1{
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid rgb(131, 131, 131);
+    padding: auto;
+    vertical-align: middle;
+}
+.header_list{
+    display: flex;
+    list-style: none;
+    margin-left: 950px;
+}
+.header_item{
+    margin-left: 15px;
+}
+.header{
+    background-color:black ;
+    color:  rgb(131, 131, 131);
+    border-bottom: 1px solid rgb(131, 131, 131);
+    
+}
+.header_text1{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 6px;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Manege'; /*  Произвольное имя для шрифта */
+    src: url(file/ManegeDemo-Light.ttf) format('truetype'); /*  Путь к файлу TTF (для старых браузеров) */
+    font-weight: normal; /*  Начертание шрифта (normal, bold, italic и т.д.) */
+    font-style: italic;  /*  Стиль шрифта (normal, italic) */
+    font-display: swap;   /*  Управление отображением шрифта до его загрузки */
+  }
+.main{
+
+    color: white;
+    padding-top: 200px;
+}
+.main_img{
+    width: 300px;
+    opacity: 50%;
+}
+.container_main{
+    display: flex;
+    padding-bottom: 91px;
+    margin-left: 250px;
+}
+.container_main2{
+    margin-left: 450px;
+    width: 400px;
+}
+.body_img{
+    background-image: none;
+}
+#visualizerCanvas {
+    background-color: transparent; /* No Background*/
+    width: 1500px;
+}
+
+.audio {
+    margin-bottom: 20px;
+    width: 80%; /* Adjust as needed */
+    max-width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_list{
+    list-style: none;
+    display: flex;
+}
+.footer_item{
+    margin-left: 200px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 2;
+    width: 98.8%;
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: -13px;
+    border-bottom: 1px solid rgb(131, 131, 131);
+    border-top: 1px solid rgb(131, 131, 131);
+}
+.footer_title1{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: -15px;
+}
+.footer_img{
+    width: 16px;
+}
+.footer_item{
+    margin-left: 345px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+.footer_text1{
+    margin-left: -20px;
+    margin-top: -2px;
+}
